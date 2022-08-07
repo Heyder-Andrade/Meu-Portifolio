@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.jts-css {
+    width: 150px;
+    height: 70px;
+}
+
+.cabecalho {
+    background-color: rgb(25, 26, 26);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(241, 77, 13);
+
+}
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    float: right;
+    display: inline-block;
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+.cabecalho .logo {
+    display: inline-block;
+
+}
+
+/* cabeçalho pronto  falta mudar cor do fundo escolher depois */
+
+.foto-heyder {
+    width: 480px;
+    height: 480px;
+    float: right;
+    padding-top: 30px;
+
+}
+
+.nome {
+
+    margin-top: 100px;
+    margin-left: 25px;
+    font-size: 32px;
+
+}
+
+.descricao-h {
+    /* background-color: aqua; */
+    padding: 20px;
+    font-size: 60px;
+    text-align: justify;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+.descricao-s {
+    /* background-color: aqua; */
+    padding: 20px;
+    font-size: 35px;
+    text-align: justify;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+.espaco {
+    padding-left: 300px;
+
+}
+
+.img-git {
+    border-style: solid;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(12, 12, 12);
+    /* display: flex;
+    justify-content: right; */
+    float: right;
+
+}
+
+.img-link {
+    width: 120px;
+    height: 40px;
+    /* padding-left: 300px; */
+    background-color: rgb(227, 213, 213);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: blue;
+
+}
+
+.caixa-git {
+    padding-left: 100px;
+}
+
+
+.caixa-git-link {
+    display: flex;
+    justify-content: left;
+    padding-left: 50px;
+}
