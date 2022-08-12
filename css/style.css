@@ -1,3 +1,7 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -15,12 +19,12 @@ body {
     border-color: rgb(241, 77, 13);
 
 }
+
 .cabecalho nav {
     float: right;
 }
 
 .cabecalho nav li {
-    float: right;
     display: inline-block;
     padding: 30px;
     font-size: 25px;
@@ -39,6 +43,7 @@ body {
     height: 480px;
     float: right;
     padding-top: 30px;
+
 
 }
 
@@ -73,28 +78,34 @@ body {
 
 }
 
-.img-git {
-    border-style: solid;
-    border-radius: 20px;
-    width: 120px;
+.botao-git {
+    background-color: rgb(179, 180, 181);
+    font-size: 40px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    width: 170px;
     height: 40px;
-    background-color: rgb(12, 12, 12);
-    /* display: flex;
-    justify-content: right; */
-    float: right;
+    color: #000;
+
 
 }
 
-.img-link {
-    width: 120px;
+.botao-link {
+    background-color: rgb(136, 191, 240);
+    font-size: 40px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    width: 190px;
     height: 40px;
-    /* padding-left: 300px; */
-    background-color: rgb(227, 213, 213);
-    border-radius: 20px;
-    border-style: solid;
-    border-color: blue;
+    color: #ffff;
 
 }
+
+.btn-l {
+    width: 50px;
+    height: 50%;
+}
+
 
 .caixa-git {
     padding-left: 100px;
@@ -103,6 +114,6 @@ body {
 
 .caixa-git-link {
     display: flex;
-    justify-content: left;
-    padding-left: 50px;
+    justify-content: right baseline;
+    padding-left: 100px;
 }
