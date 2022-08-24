@@ -3,10 +3,15 @@ html {
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(39, 37, 37);
     color: white;
 }
-
+.container{
+     display: flex;
+    display: grid;
+    width: 1895px;
+    height: 803px;
+}
 .jts-css {
     width: 150px;
     height: 70px;
@@ -26,16 +31,110 @@ body {
 
 .cabecalho nav li {
     display: inline-block;
-    padding: 30px;
+    padding: 5px;
+    margin: 20px;
     font-size: 25px;
+    background-color: rgb(174, 179, 179);
+    border-radius: 20px;
+    box-sizing: border-box;
 
 }
 
 .cabecalho .logo {
     display: inline-block;
+    padding: 15px;
 
 }
 
+
+.efeito{
+    border: none;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+   
+       
+}
+.efeito-1:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    transition: all 2s ease;
+}
+.efeito-1:hover:before{
+    width: 100%;
+}
+
+
+.efeito-caixa{
+    
+    border: none;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms ease;
+    /* background-color: #28348a; */
+
+
+}
+.efeito-caixa-1 :before{
+    margin-top: 40px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    transition: all 2s ease;
+
+}
+.efeito-caixa :hover:before{
+    width: 100%;
+        
+    }
+
+.efeito-git{
+    border: none;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms ease;
+    
+    } 
+.efeito-git-1 :before{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 40px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 0px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    transition: all 2s ease;
+    
+
+}
+.efeito-git-1 :hover :before{
+width: 79%;
+}
+
+    
 /* cabeçalho pronto  falta mudar cor do fundo escolher depois */
 
 .foto-heyder {
@@ -43,8 +142,8 @@ body {
     height: 480px;
     float: right;
     padding-top: 30px;
-
-
+    margin-right: 200px;
+     
 }
 
 .nome {
@@ -56,7 +155,7 @@ body {
 }
 
 .descricao-h {
-    /* background-color: aqua; */
+    
     padding: 20px;
     font-size: 60px;
     text-align: justify;
@@ -65,7 +164,7 @@ body {
 }
 
 .descricao-s {
-    /* background-color: aqua; */
+    
     padding: 20px;
     font-size: 35px;
     text-align: justify;
@@ -86,7 +185,8 @@ body {
     width: 170px;
     height: 40px;
     color: #000;
-
+    margin-left: 50px;
+    padding-left: 10px;
 
 }
 
@@ -101,19 +201,11 @@ body {
 
 }
 
-.btn-l {
-    width: 50px;
-    height: 50%;
-}
 
-
-.caixa-git {
-    padding-left: 100px;
-}
 
 
 .caixa-git-link {
     display: flex;
     justify-content: right baseline;
-    padding-left: 100px;
+    padding-left: 50px;
 }
