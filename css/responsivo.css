@@ -30,26 +30,41 @@
         padding: 0;
         margin: 0;
     }
-    .foto-heyder {
-        padding-right: 1100px;
+    .container .foto-heyder {
+        padding-right: 900px;
+
+        width: 300px;
+        height: 300px;
                 
     }
-    .descricao-h{
-        display: flex;
-        display: inline-block;
-        padding-left: 300px;
+    
+    .info .descricao-h{
+        padding-left: 30px;
+        font-size: 30px;
+    }
+    .info .descricao-s{
+        padding-left: 40px;
+        font-size: 25px;
     }
 
-           
+    .container .caixa-git-link p {
+            margin: 0;
+      
+                 
     
 }
+
+}
+
+
+
 
 @media (max-width: 950px) { 
     .container{
         display: flex;
         display: inline-block;
-        width: 414px;
-        height: 896px; 
+        width: 300px;
+        height: 500px; 
         padding: 0;
         margin: 0;
     }
@@ -74,23 +89,4 @@
         display: none;
  }
 
-
-
-
-@media (max-width: 576px) {  }
-
-/* // dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
-
-@media (max-width: 768px) {  }
-
-/* // dispositivos médios (tablets, menos de 992px) */
-
-@media (max-width: 992px) {  }
-
-/* // dispositivos grandes (desktops, menos de 1200px) */
-
-@media (max-width: 1200px) {  }
-
-/* // dispositivos extra grandes (desktops grandes) */
-
-/* // 1200px ou mais, não tem breakpoint */
+}
