@@ -82,81 +82,14 @@ body {
 /* cabeçalho pronto  falta mudar cor do fundo escolher depois */
 
 
-
-.efeito-caixa {
-
-    border: none;
-    color: #ffffff;
-    position: relative;
-    cursor: pointer;
-    transition: all 400ms ease;
-    /* background-color: #28348a; */
-
-
-}
-
-.efeito-caixa-1 :before {
-    margin-top: 40px;
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 70px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 16px;
-    transition: all 2s ease;
-
-}
-
-.efeito-caixa :hover:before {
-    width: 100%;
-
-}
-
-.efeito-git {
-    border: none;
-    color: #ffffff;
-    position: relative;
-    cursor: pointer;
-    transition: all 400ms ease;
-
-}
-
-.efeito-git-1 :before {
-    margin-left: 50px;
-    margin-right: 100px;
-    margin-top: 40px;
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 0px;
-    height: 70px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 16px;
-    transition: all 2s ease;
-
-
-}
-
-.efeito-git-1 :hover :before {
-    width: 79%;
-}
-
-
-
 .foto-heyder {
     width: 550px;
     height: 580px;
     float: right;
     padding-top: 150px;
-    
-     
+       
 
 }
-
-
 
 .descricao-h {
 
