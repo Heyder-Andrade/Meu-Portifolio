@@ -10,9 +10,7 @@
         width: 300px;
         height: 300px;          
     }
-    .descricao-h{
-             
-    }
+   
 
  }
 
@@ -89,6 +87,14 @@
     padding-left: 30px;
    
 }
+.btns .cabecalho nav{
+    display: flex;
+    float: none;
+    display: block;
+}
+ .btns .cabecalho nav li{
+    display: block;
+}
 
   
  }
@@ -145,6 +151,16 @@
     width: 100px;
     height: 25px;
 
+}
+
+
+.btns .cabecalho nav{
+    display: flex;
+    float: none;
+    display: block;
+}
+ .btns .cabecalho nav li{
+    display: block;
 }
 
 
