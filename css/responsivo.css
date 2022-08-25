@@ -99,19 +99,18 @@
         display: flex;
         display: inline-block;
         max-width: 250px;
-         
-        padding: 0;
+        *padding: 0;
         margin: 0;
     }
     .container .foto-heyder{
         width: 350px;
         height: 350px;
-        padding: 0;
-                
+                      
     }
+
     
-    .info .descricao-h{
-       padding: 0 ;
+    .container .info .descricao-h{
+       padding: 50px 0 0 0 ;
        font-size: 45px;
     }
 
@@ -123,15 +122,30 @@
     .container .caixa-git-link{
         padding: 0;
  }
- .container .caixa-link{
+ .caixa-git-link .caixa-link{
     padding: 0;
+    font-size: 10px;
 }
 
 .container .caixa-git{
     display: block;
 }
+.caixa-git-link .botao-link{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 25px;
 
+}
+.caixa-git-link .botao-git{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 25px;
 
+}
 
 
 }
