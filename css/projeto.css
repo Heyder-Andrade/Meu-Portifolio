@@ -93,18 +93,22 @@ body {
     display: inline-block;
     margin-left: 800px
 }
-
+.container .projetos .projeto{
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    height: 280px;
+    border-style: groove;
+}
 .container .projetos .projeto img {
     display: flex;
     display: inline-block;
-    padding: 0;
+    padding: 5px 5px 5px 5px;
     margin: 0;
     max-width: 300px;
     border-radius: 10px;
     
    
-    /* position: relative; */
-
+   
 }
 .projeto  {
     display: flex;
@@ -113,6 +117,6 @@ body {
      /* padding-left: 200px; */
     margin-left: 250px;
     margin-top: 50px;
-    border-color: aqua;
+    border-color: rgb(8, 8, 8);
     border-radius: 5px;
     }
