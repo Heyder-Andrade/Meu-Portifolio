@@ -1,0 +1,122 @@
+@media (max-width: 1860px) {
+    .btns .container {
+        display: flex;
+        max-width: 1800px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .foto-heyder {
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+    .btns .container {
+        display: flex;
+        max-width: 1024px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btns .container .foto-heyder {
+        padding: 0;
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .btns .container .descricao {
+        max-width: 800px;
+        max-height: 500px;
+
+
+    }
+
+    .btns .container .descricao p {
+        font-size: 25px;
+        text-align: justify;
+
+
+
+    }
+
+}
+
+@media (max-width: 990px) {
+   .btns .container {
+        display: block;
+        display: inline-block;
+        max-width: 680px;
+
+        padding: 0px;
+        margin: 0;
+    }
+
+  .btns  .container .foto-heyder {
+        padding-left: 300px;
+        width: 350px;
+        height: 350px;
+
+
+    }
+   
+    .btns .cabecalho nav {
+        display: flex;
+        float: none;
+        display: block;
+    }
+
+    .btns .cabecalho nav li {
+        display: block;
+    }
+    
+
+
+}
+
+
+@media (max-width: 688px) {
+    .container {
+        display: flex;
+        display: inline-block;
+        max-width: 350px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btns .container .foto-heyder {
+        padding: 0;
+        margin: 0;
+        width: 300px;
+        height: 350px;
+
+    }
+    .btns .container .descricao p {
+        width: 300px;
+        font-size: 20px;
+        text-align: justify;
+        margin: 0;
+
+
+
+    }
+
+    
+
+
+    .btns .cabecalho nav {
+        display: flex;
+        float: none;
+        display: block;
+    }
+
+    .btns .cabecalho nav li {
+        display: block;
+    }
+
+
+}
