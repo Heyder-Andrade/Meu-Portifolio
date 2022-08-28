@@ -1,0 +1,134 @@
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1500px;
+        
+    }
+    .container .projetos .projeto{
+        background-color: rgb(255, 255, 255);
+        width: 10px;
+        height: 280px;
+        border-style: groove;
+    }
+    .container .projetos .projeto img {
+        display: flex;
+        display: inline-block;
+        padding: 5px 5px 5px 5px;
+        margin: 0;
+        max-width: 200px;
+        border-radius: 10px;
+              
+    }
+    
+
+}
+
+@media (max-width: 1400px) {
+    .container {
+        display: flex;
+        max-width: 1024px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container .conteudo h1{
+    margin-left: 400px
+    
+    }
+    .container .conteudo img{
+        width: 200px;
+        
+    }
+     .container .conteudo .projetos .projeto{
+        width: 210px;
+        height: 190px;
+        margin: 50px;
+        padding: 0;
+    }
+
+    
+    
+
+   
+
+}
+
+@media (max-width: 990px) {
+    .container {
+        display: flex;
+        max-width: 320px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container .conteudo h1{
+    margin-left: 100px
+    
+    }
+    .container .conteudo img{
+        width: 200px;
+        
+    }
+     .container .conteudo .projetos .projeto{
+        width: 210px;
+        height: 190px;
+        margin-left: 70px;
+        padding: 0;
+    }
+
+   
+    .container .cabecalho nav {
+        display: block;
+        float: none;
+        
+    }
+
+    .container .cabecalho nav li {
+        display: block;
+    }
+    
+
+
+}
+
+
+@media (max-width: 688px) {
+    .container {
+        display: flex;
+        display: inline-block;
+        max-width: 350px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btns .container .foto-heyder {
+        padding: 0;
+        margin: 0;
+        width: 300px;
+        height: 350px;
+
+    }
+    .btns .container .descricao p {
+        width: 300px;
+        font-size: 20px;
+        text-align: justify;
+        margin: 0;
+
+
+
+    }
+
+    
+
+
+    .btns .cabecalho nav {
+        display: flex;
+        float: none;
+        display: block;
+    }
+
+    .btns .cabecalho nav li {
+        display: block;
+    }
+
+
+}
