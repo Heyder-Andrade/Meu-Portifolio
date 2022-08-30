@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+
+.container {
+    display: flex;
+    display: grid;
+    width: 1895px;
+    height: 803px;
+}
+
+.jts-css {
+    width: 150px;
+    height: 70px;
+}
+
+.cabecalho {
+    background-color: rgb(25, 26, 26);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(241, 77, 13);
+
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 20px;
+    font-size: 25px;
+    background-color: rgb(174, 179, 179);
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+.cabecalho .logo {
+    display: inline-block;
+    padding: 15px;
+
+}
+
+ .conteudo{
+    display: flex;
+    display: inline-block;
+    margin: 15px;
+    
+}
+.conteudo img {
+   margin:80px 0 0 550px;
+} 
+.cconteudo h1 {
+    margin: 50px 0 0 80px;
+}

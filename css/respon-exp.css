@@ -1,0 +1,42 @@
+@media (max-width: 1600px){
+    .container img {
+        margin:80px 0 0 250px;
+     } 
+}
+
+@media (max-width: 1600px){
+    .container img {
+        margin:80px 0 0 50px;
+     } 
+
+     .container h1 {
+        margin: 50px 0 0 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+       width: 300px;
+    }
+    .conteudo img {
+        margin:0;
+        max-width: 300px;
+     } 
+
+     .conteudo h1 {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+   .btns .cabecalho nav {
+display: flex;
+float: none;
+display: block;
+}
+.cabecalho{
+    text-align: center;
+}
+
+
+}
