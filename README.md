@@ -10,3 +10,6 @@ um projeto a onde mostro tudo sobre mim
 -CSS<br>
 -JS-EM BREVE
 
+
+## link direto para pagina !
+https://heyder-andrade.github.io/Meu-Portifolio/
