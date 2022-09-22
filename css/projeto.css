@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: rgb(39, 37, 37);
+    background-color:var(--neutral-dark);
     color: white;
 }
 
@@ -11,7 +11,7 @@ body {
     display: flex;
     display: grid;
     width: 1895px;
-    height: 503px;
+    height: 980px;
 }
 
 .jts-css {
@@ -20,7 +20,7 @@ body {
 }
 
 .cabecalho {
-    background-color: rgb(25, 26, 26);
+    background-color:var(--neutral-soft);
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(241, 77, 13);
@@ -48,6 +48,15 @@ body {
 
 }
 
+.cabecalho nav li :hover{
+    content: '';
+    background-color: hsl(215, 51%, 70%);
+    padding: 4px 0px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    
+    }
 
 /* .efeito {
     border: none;

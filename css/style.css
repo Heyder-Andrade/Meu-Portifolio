@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: rgb(39, 37, 37);
+    background-color:var(--neutral-dark);
     color: white;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .cabecalho {
-    background-color: rgb(25, 26, 26);
+    background-color:var(--neutral-soft);
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(241, 77, 13);
@@ -33,7 +33,7 @@ body {
 
 .cabecalho nav li {
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     margin: 20px;
     font-size: 25px;
     background-color: rgb(174, 179, 179);
@@ -47,8 +47,15 @@ body {
     padding: 15px;
 
 }
-
-
+.cabecalho nav li :hover{
+    content: '';
+    background-color: hsl(215, 51%, 70%);
+    padding: 4px 0px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    
+}
  
 /* cabeçalho pronto  falta mudar cor do fundo escolher depois */
 

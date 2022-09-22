@@ -45,6 +45,15 @@ body {
     box-sizing: border-box;
 
 }
+.cabecalho nav li :hover{
+    content: '';
+    background-color: hsl(215, 51%, 70%);
+    padding: 4px 0px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    
+    }
 
 .cabecalho .logo {
     display: inline-block;
