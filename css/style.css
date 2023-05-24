@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color:var(--neutral-dark);
+    background-color: var(--neutral-dark);
     color: white;
 }
 
@@ -11,7 +11,7 @@ body {
     display: flex;
     display: grid;
     width: 1895px;
-    height: 803px;
+    height: 100vh;
 }
 
 .jts-css {
@@ -20,7 +20,7 @@ body {
 }
 
 .cabecalho {
-    background-color:var(--neutral-soft);
+    background-color: var(--neutral-soft);
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(241, 77, 13);
@@ -36,9 +36,10 @@ body {
     padding: 5px;
     margin: 20px;
     font-size: 25px;
-    background-color: rgb(174, 179, 179);
+    background-color: rgb(240, 225, 225);
     border-radius: 20px;
     box-sizing: border-box;
+
 
 }
 
@@ -47,31 +48,48 @@ body {
     padding: 15px;
 
 }
-.cabecalho nav li :hover{
-    content: '';
-    background-color: hsl(215, 51%, 70%);
-    padding: 4px 0px;
-    max-width: 100%;
-    border-radius: 10px;
-    transition: 0.5s ease-in-out;
-    
+
+."cabecalho nav li:hover {
+     content: ''; 
+    background-color: hsl(215, 49%, 82%);
+     padding: 6px ;
+    border-radius: 25px;
+    transition: 0.5s ease; 
+
 }
- 
-/* cabeçalho pronto  falta mudar cor do fundo escolher depois */
+
+/* .btn {
+    animation: scale-in-center .5s
+} */
+
+
+/* @keyframes scale-in-center {
+    0% {
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1
+    }
+} */
+
+
 
 
 .foto-heyder {
     width: 550px;
     height: 580px;
     float: right;
-    padding-top: 150px;
-       
+    padding: 100px 0 30px 0px;
+
 
 }
 
 .descricao-h {
 
-    padding: 100px 0 0 200px;
+    padding: 100px 10px 0 00px;
     font-size: 80px;
     text-align: justify;
     min-width: 320px;
@@ -80,11 +98,11 @@ body {
 
 .descricao-s {
 
-    padding: 20px 0 0 200px;
+    padding: 10px 0 0 0px;
     font-size: 35px;
     text-align: justify;
     min-width: 320px;
-    max-width: 900px;
+    max-width: 800px;
 }
 
 
@@ -120,4 +138,8 @@ body {
     display: flex;
     justify-content: right baseline;
     padding-left: 50px;
+}
+.caixa-git-link :hover{
+    background-color: rgb(111, 138, 247);
+    border-radius: 20px;
 }
