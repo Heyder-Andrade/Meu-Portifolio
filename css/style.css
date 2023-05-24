@@ -49,7 +49,7 @@ body {
 
 }
 
-."cabecalho nav li:hover {
+.cabecalho nav li:hover {
      content: ''; 
     background-color: hsl(215, 49%, 82%);
      padding: 6px ;
