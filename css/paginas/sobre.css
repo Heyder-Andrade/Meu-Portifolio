@@ -1,22 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 html {
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'DynaPuff', cursive;
 }
 
 body {
-    background-color: rgb(39, 37, 37);
+    background-color: var(--neutral-dark);
     color: white;
 }
 
-.container {
-    display: flex;
-    display: grid;
-    width: 1895px;
-    height: 803px;
-}
 
 .jts-css {
     width: 150px;
@@ -24,7 +14,7 @@ body {
 }
 
 .cabecalho {
-    background-color: rgb(25, 26, 26);
+    background-color: var(--neutral-soft);
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(241, 77, 13);
@@ -45,31 +35,51 @@ body {
     box-sizing: border-box;
 
 }
-.cabecalho nav li :hover{
+
+.cabecalho nav li:hover {
     content: '';
     background-color: hsl(215, 51%, 70%);
     padding: 4px 0px;
     max-width: 100%;
     border-radius: 10px;
     transition: 0.5s ease-in-out;
-    
-    }
+
+}
 
 .cabecalho .logo {
     display: inline-block;
-    padding: 15px;
+    padding: 30px;
 
 }
 
- .conteudo{
+
+
+
+/* cabeçalho pronto  falta mudar cor do fundo escolher depois */
+.container {
     display: flex;
-    display: inline-block;
-    margin: 15px;
-    
+    align-items: center;
+
+
 }
-.conteudo img {
-   margin:80px 0 0 550px;
-} 
-.cconteudo h1 {
-    margin: 50px 0 0 80px;
+
+
+.container .foto-heyder {
+    width: 700px;
+    height: 700px;
+    padding: 30px 10px 0 80px;
+    margin-right: 200px;
+    margin: 60px 100px 40px 20px;
+
+}
+
+.descricao p {
+    font-size: 40px;
+    margin-right: 80px;
+    width: 700px;
+}
+
+.eu {
+    padding-left: 400px;
+    padding-top: 50px;
 }
