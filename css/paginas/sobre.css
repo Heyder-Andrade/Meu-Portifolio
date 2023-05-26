@@ -7,10 +7,18 @@ body {
     color: white;
 }
 
+.container {
+    display: flex;
+    display: grid;
+    width: 1895px;
+    height: 100vh;
+}
 
 .jts-css {
     width: 150px;
     height: 70px;
+    
+    
 }
 
 .cabecalho {
@@ -18,11 +26,12 @@ body {
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(241, 77, 13);
-
+    height: 100px;
 }
 
 .cabecalho nav {
     float: right;
+    margin-bottom: 10px;
 }
 
 .cabecalho nav li {
@@ -56,12 +65,7 @@ body {
 
 
 /* cabeçalho pronto  falta mudar cor do fundo escolher depois */
-.container {
-    display: flex;
-    align-items: center;
 
-
-}
 
 
 .container .foto-heyder {

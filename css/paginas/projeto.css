@@ -12,6 +12,7 @@ body {
 .jts-css {
     width: 150px;
     height: 70px;
+    margin: 20px;
 }
 
 .cabecalho {
@@ -20,12 +21,12 @@ body {
     border-style: solid;
     border-color: rgb(241, 77, 13);
     width: 1330px;
-    height: 120px;
-
+    height: 110px;
 }
 
 .cabecalho nav {
     float: right;
+    margin-bottom: 10px;
 }
 
 .cabecalho nav li {
@@ -51,7 +52,7 @@ body {
 
 .cabecalho .logo {
     display: inline-block;
-    padding: 30px;
+    
 
 }
 
@@ -61,7 +62,8 @@ body {
     display: flex;
     display: grid;
     width: 1895px;
-    height: 980px;
+    height: 100vh;
+
 }
 .btns{
     display: flex;

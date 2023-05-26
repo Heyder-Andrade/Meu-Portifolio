@@ -16,7 +16,7 @@ body {
     display: flex;
     display: grid;
     width: 1895px;
-    height: 803px;
+    height: 100vh;
 }
 
 .jts-css {
@@ -30,11 +30,12 @@ body {
     border-style: solid;
     border-color: rgb(241, 77, 13);
     width: 1340px;
+    height: 110px;
+
 }
 
 .cabecalho nav {
     float: right;
-    padding-top: 40px;
 }
 
 .cabecalho nav li {
@@ -45,12 +46,12 @@ body {
     background-color: rgb(174, 179, 179);
     border-radius: 20px;
     box-sizing: border-box;
-
+    margin-top: 50px;
 }
 
 .cabecalho nav li:hover {
     content: '';
-    background-color: hsl(215, 49%, 82%);
+    background-color: hsl(215, 51%, 70%);
     padding: 4px 0px;
     max-width: 100%;
     border-radius: 10px;
@@ -60,9 +61,11 @@ body {
 
 .cabecalho .logo {
     display: inline-block;
-    padding: 15px;
+    
 
 }
+
+
 
 .conteudo {
     display: flex;
@@ -79,7 +82,8 @@ body {
 .conteudo h1 {
     margin: 50px 0 0 80px;
 }
-.img{
+
+.img {
     display: flex;
     justify-content: center;
     align-items: center;
