@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    background-color:var(--neutral-dark);
+    background-color: var(--neutral-dark);
     color: white;
+    
 }
 
 
@@ -12,7 +13,6 @@ body {
 .jts-css {
     width: 150px;
     height: 70px;
-    margin: 20px;
 }
 
 .cabecalho {
@@ -20,13 +20,11 @@ body {
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(241, 77, 13);
-    width: 1330px;
-    height: 110px;
+
 }
 
 .cabecalho nav {
     float: right;
-    margin-bottom: 10px;
 }
 
 .cabecalho nav li {
@@ -34,48 +32,49 @@ body {
     padding: 5px;
     margin: 20px;
     font-size: 25px;
-    background-color: rgb(174, 179, 179);
+    background-color: rgb(240, 225, 225);
     border-radius: 20px;
     box-sizing: border-box;
 
-}
-
-.cabecalho nav li:hover {
-    content: '';
-    background-color: hsl(215, 51%, 70%);
-    padding: 4px 0px;
-    max-width: 100%;
-    border-radius: 10px;
-    transition: 0.5s ease-in-out;
 
 }
 
 .cabecalho .logo {
     display: inline-block;
-    
+    padding: 15px;
 
 }
 
+.cabecalho nav li:hover {
+     content: ''; 
+    background-color: hsl(215, 49%, 82%);
+     padding: 6px ;
+    border-radius: 25px;
+    transition: 0.5s ease; 
 
-/* cabeçalho pronto   */
-.container {
-    display: flex;
-    display: grid;
-    width: 1895px;
+}
+
+/* menu de navegação pronto 
+*/
+.container{
+    width: 1340px;
     height: 100vh;
-
+    display: block;
+    
+   
 }
-.btns{
+ .btns{
     display: flex;
     display: inline-block;
     padding: 0;
     margin: 0;
 
-}
+} 
+
 .container h1{
     display: flex;
-    display: inline-block;
-    margin-left: 800px
+    justify-content: center;
+    
 }
 .container .projetos .projeto{
     background-color: rgb(255, 255, 255);
