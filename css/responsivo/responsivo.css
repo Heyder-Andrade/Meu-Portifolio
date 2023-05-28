@@ -13,7 +13,6 @@
    
 
  }
-
  
 
 @media (max-width: 1480px){
@@ -92,7 +91,7 @@
     float: none;
     display: block;
 }
- .btns .cabecalho nav li{
+ .cabecalho nav li{
     display: block;
 }
 
@@ -102,7 +101,7 @@
 
 @media (max-width: 688px) { 
     .container{
-        display: flex;
+        display: block;
         display: inline-block;
         max-width: 250px;
         *padding: 0;
@@ -153,14 +152,39 @@
 
 }
 
-
-.btns .cabecalho nav{
-    display: flex;
+.cabecalho{
+    height: 350px;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px;
+}
+ .cabecalho nav{
     float: none;
     display: block;
+    
 }
- .btns .cabecalho nav li{
+.cabecalho nav li{
     display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    background-color:  aqua;
+}
+.cabecalho .logo{
+    display: block;
+    margin-left: 80px;
+}
+.botao{
+    display: block;
+    margin-left: 80px;
+    padding: 0;
+    font-size: 10px;
+
+}
+.botao li{
+    margin: 0;
+    padding: 0;
+    
 }
 
 
