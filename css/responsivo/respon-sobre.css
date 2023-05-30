@@ -84,10 +84,12 @@
         display: flex;
         float: none;
         display: block;
+        width: 90%;
     }
 
     .btns .cabecalho nav li {
         display: block;
+        width: 90%;
     }
     
 

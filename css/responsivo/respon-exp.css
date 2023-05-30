@@ -28,11 +28,7 @@
    
         padding: 0  80px ;
      }
-.botao nav {
-    
-padding: 0 30px;  
-margin-left: 10px;  
-}
+
     .container {
         width: 300px;
         display: flex;
@@ -54,8 +50,12 @@ margin-left: 10px;
         display: flex;
         float: none;
         display: block;
+      
     }
-
+    .cabecalho nav li{
+        display: block;
+          width: 108%;
+    }
 
 
 }
