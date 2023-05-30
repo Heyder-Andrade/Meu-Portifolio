@@ -6,11 +6,26 @@
         margin: 0;
     }
 
-    .foto-heyder {
-        width: 300px;
-        height: 300px;
+    /* .bnts .container .foto-heyder img{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    } */
+    .container .foto-heyder {
+        width:500px;
+        height: 500px;
+        padding: 0;
+
+    
+    }
+    .container .descricao p {
+        font-size: 35px;
+        width: 600px;
     }
 
+    .container .descricao {
+        margin-top: 40px;
+    }
 
 }
 
@@ -43,6 +58,7 @@
 
 
     }
+    
 
 }
 
