@@ -1,4 +1,6 @@
-@media (max-width: 1860px) { 
+
+
+@media (max-width: 1100px) { 
     .container{
         display: flex;
         display: inline-block;
@@ -6,21 +8,27 @@
          padding: 0;
         margin: 0;
     }
-    .foto-heyder {
-        width: 300px;
-        height: 300px;          
+    .container .foto-heyder {
+        width: 400px;
+        height: 400px;
+        
+        
+             
     }
-   
-
+    .container .caixa-git-link .caixa-git p{
+        font-size: 40px;
+        
+    }
+    
  }
  
 
-@media (max-width: 1480px){
+@media (max-width: 1024px){
     .container{
         display: flex;
         display: inline-block;
-        width: 1024px;
-        height: 500px; 
+        width: 900px;
+       max-height: 100vh; 
         padding: 0;
         margin: 0;
     }
@@ -28,6 +36,7 @@
        
         width: 300px;
         height: 300px;
+        margin-right: 0 ;
                 
     }
     
@@ -44,8 +53,9 @@
             margin: 0;
       
 }
-.caixa-git{
+.container .caixa-git  {
     margin-left: 30px;
+    font-size: 10px;
 }
 
 }
@@ -86,6 +96,10 @@
     padding-left: 30px;
    
 }
+.container .caixa-git-link .caixa-git p{
+    font-size: 20px;
+   
+}
 .btns .cabecalho nav{
     display: flex;
     float: none;
@@ -105,7 +119,7 @@
         display: block;
         display: inline-block;
         max-width: 250px;
-        *padding: 0;
+        padding: 0;
         margin: 0;
     }
     .container .foto-heyder{
