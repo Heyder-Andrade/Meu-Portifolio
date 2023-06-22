@@ -10,7 +10,7 @@ body {
 .container {
     display: flex;
     display: grid;
-    width: 1895px;
+    width: 1600px;
     height: 100vh;
 }
 
@@ -67,8 +67,8 @@ body {
 
 
 .foto-heyder {
-    width: 550px;
-    height: 580px;
+    width: 500px;
+    height: 500px;
     float: right;
     padding: 100px 0 30px 0px;
 
